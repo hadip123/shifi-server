@@ -38,6 +38,8 @@ app.use(cors({
     },
 }))
 
+import serveIndex from 'serve-index'
+app.use('/files',express.static('files'), serveIndex('files') )
 app.post('/auth/signup', async (req, res) => {
     const data = userSchema.validate(req.body);
 

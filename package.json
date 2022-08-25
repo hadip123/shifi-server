@@ -22,6 +22,7 @@
       "@types/node": "^18.7.12",
       "@types/passport": "^1.0.10",
       "@types/passport-local": "^1.0.34",
+      "@types/serve-index": "^1.9.1",
       "@types/uuid": "^8.3.4",
       "bcrypt": "^5.0.1",
       "body-parser": "^1.20.0",
@@ -36,6 +37,7 @@
       "passport": "^0.6.0",
       "passport-local": "^1.0.0",
       "reflect-metadata": "^0.1.13",
+      "serve-index": "^1.9.1",
       "typeorm": "0.3.7",
       "uuid": "^8.3.2"
    },
